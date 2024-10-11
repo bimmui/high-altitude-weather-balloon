@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "teensy")(type "KiCad")(uri "C:/Users/danie/Downloads/teensy.pretty-master/teensy.pretty")(options "")(descr ""))
+  (lib (name "teensy-foots")(type "KiCad")(uri "C:/Users/danie/Documents/HAB/kicad-libs/teensy-foots.pretty")(options "")(descr ""))
+  (lib (name "random-footprints")(type "KiCad")(uri "C:/Users/danie/Documents/HAB/kicad-libs/random-footprints.pretty")(options "")(descr ""))
+)
