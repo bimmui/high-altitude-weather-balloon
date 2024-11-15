@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "INA111AP")(type "KiCad")(uri "/Users/billsoronzonbold/Downloads/INA111AP/INA111AP.kicad_sym")(options "")(descr ""))
+)
