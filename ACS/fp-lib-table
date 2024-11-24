@@ -4,4 +4,5 @@
   (lib (name "teensy-foots")(type "KiCad")(uri "C:/Users/danie/Documents/HAB/kicad-libs/teensy-foots.pretty")(options "")(descr ""))
   (lib (name "random-footprints")(type "KiCad")(uri "C:/Users/danie/Documents/HAB/kicad-libs/random-footprints.pretty")(options "")(descr ""))
   (lib (name "IMU")(type "KiCad")(uri "C:/Users/globa/Documents/GitHub/high-altitude-weather-balloon/kicad-libs/IMU.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "C:/Users/danie/Documents/HAB/kicad-libs/IMU.pretty/Library.pretty")(options "")(descr ""))
 )
