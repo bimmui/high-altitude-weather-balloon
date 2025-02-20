@@ -24,7 +24,8 @@ class Balloon:
     :param init_alt: Initial altitude in meters
     :param init_velo: Initial velocity in meters per sec
     :param init_r: Initial radius of the balloon in meters
-    :param init_r: Mass of the balloon payload
+    :param final_r: Final radius of the balloon in meters
+    :param m: Mass of the balloon payload
     """
     def __init__(self, init_alt, init_velo, init_r, final_r, m):
         self.curr_velo = init_velo
