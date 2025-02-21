@@ -13,7 +13,8 @@ Psl0 = 101325 # pascals
 Psl2 = 2481 # pascals
 a_valve = 0.5 # meters, filler so change this 
 latex_elastic_stress = 0.1 # pascals, filler so change this 
-rho_helium = 7 # kg / meters^3, filler so change this 
+rho_helium = 0.166 # kg / meters^3
+init_pressure = 709.204312217 # calculated in desmos notebook
 
 
 class Balloon:
@@ -25,14 +26,15 @@ class Balloon:
     :param init_velo: Initial velocity in meters per sec
     :param init_r: Initial radius of the balloon in meters
     :param final_r: Final radius of the balloon in meters
-    :param m: Mass of the balloon payload
+    :param m: Mass of the balloon payload in kilograms
+    :param m: Initial pressure of the balloon in Pascals
     """
-    def __init__(self, init_alt, init_velo, init_r, final_r, m):
+    def __init__(self, init_velo, init_r, final_r, m, init_pressure):
         self.curr_velo = init_velo
         self.init_r = init_r
         self.final_r = final_r
         self.mass = m
-        self.curr_pressure = 0
+        self.curr_pressure = init_pressure
         self.curr_volume = 0
         self.curr_radius = 0
         self.curr_density = 0
